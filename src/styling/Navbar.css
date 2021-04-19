@@ -1,0 +1,38 @@
+.navbar{
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+
+.home-navbar{
+    border: solid rgba(0,0,0,0.4) 2px;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px 0 0 10px;
+    background-color:rgba(0,0,0,0.3);
+    font-family: Broadway;
+    font-size: 30px;
+    color: silver;
+}
+.shoes-navbar{
+    border: solid rgba(0,0,0,0.4) 2px;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: rgba(0,0,0,0.3);
+    font-family: Broadway;
+    font-size: 30px;
+    color: silver;
+}
+.about-navbar{
+    border: solid rgba(0,0,0,0.4) 2px;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 0 10px 10px 0;
+    background-color:rgba(0,0,0,0.3);
+    font-family: Broadway;
+    font-size: 30px;
+    color: silver;
+}
