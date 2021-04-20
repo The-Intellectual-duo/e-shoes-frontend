@@ -1,0 +1,9 @@
+.shoe-card{
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 300px;
+}
+.shoe-image{
+    width: 300px;
+    border-radius: 3px;
+}
