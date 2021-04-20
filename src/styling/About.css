@@ -1,0 +1,46 @@
+.about{
+    border: solid black 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 150px;
+    background: rgba(0,0,0,0.3);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.about-desc{
+    text-align: center;
+    font-family: Broadway;
+    font-size: 45px;
+    grid-column: 1 / span 2;
+}
+.josmar-card{
+    border: black solid 2px;
+    border-radius: 5px;
+    grid-column: 2;
+    position: relative;
+    left: 35%;
+}
+.card-img{
+    width: 287px;
+    filter:brightness(75%);
+    border-radius: 5px;
+}
+.card-title{
+    align-content: center;
+}
+
+.card-body{
+    font-family: Broadway;
+    color: silver;
+}
+
+.jalen-card{
+    border: black solid 2px;
+    border-radius: 5px;
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    left: 35%;
+}
