@@ -2,6 +2,7 @@
     /* border:solid black 2px; */
     position: relative;
     top: -35px;
+    left: ;
     text-align: center;
 }
 .show{
@@ -22,7 +23,7 @@
     background-color: rgba(0,0,0,0.3);
     position: relative;
     top: 120px;
-    left:23%;
+    left:29.2%;
     color: whitesmoke;
     width: 950px;
 }
