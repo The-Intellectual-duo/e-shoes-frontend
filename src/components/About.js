@@ -3,6 +3,7 @@ import '../styling/About.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faGhost } from '@fortawesome/free-solid-svg-icons'
 import Card from 'react-bootstrap/Card'
+import Carousel from './Carousel'
 
 function About() {
     return (
@@ -39,6 +40,7 @@ function About() {
 						</Card.Text>
 					</Card.Body>
 				</Card>
+				<Carousel/>
 			</div>
 		);
 }
