@@ -14,13 +14,17 @@
     text-align: center;
     font-family: Broadway;
     font-size: 20px;
+    justify-content: center;
+
 }
 .shoes-comp{
     border: solid black 2px;
     background-color: rgba(0,0,0,0.3);
     position: relative;
     top: 120px;
+    left:23%;
     color: whitesmoke;
+    width: 950px;
 }
 .nav-link{
     padding:15px;
