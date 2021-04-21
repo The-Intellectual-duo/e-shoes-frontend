@@ -65,7 +65,7 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
 		paddingBottom: '56.25%',
 	},
 	image: {
-        borderRadius: '20%' ,
+		borderRadius: '20%',
 		display: 'block',
 		position: 'absolute',
 		zIndex: 10,
@@ -85,7 +85,7 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
 		[breakpoints.up('sm')]: {
 			display: 'inline-flex',
 		},
-        backgroundColor: 'white'
+		backgroundColor: 'white',
 	},
 	arrowLeft: {
 		left: 0,
@@ -101,7 +101,7 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
 	},
 	text: {
 		// shared style for text-top and text-bottom
-		fontFamily: 'Poppins, san-serif',
+		fontFamily: 'Broadway',
 		fontWeight: 900,
 		position: 'absolute',
 		color: palette.common.white,
@@ -121,7 +121,7 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
 		height: '40%',
 		fontSize: 40,
 		zIndex: 1,
-		background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, #9c9c9c 100%)',
+		background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, #b52212 100%)',
 		[breakpoints.up('sm')]: {
 			top: 40,
 			fontSize: 72,
@@ -137,7 +137,7 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
 		height: '52%',
 		fontSize: 56,
 		zIndex: 2,
-		background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%, #888888 100%)',
+		background: 'linear-gradient(0deg, rgba(255,255,255,0) 0%,  #b52212  100%)',
 		[breakpoints.up('sm')]: {
 			top: 112,
 			left: '6%',
