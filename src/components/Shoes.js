@@ -22,7 +22,7 @@ function Shoes(props) {
 
         axios.get('https://protected-garden-44970.herokuapp.com/puma/')
             .then(res => setPuma(res.data))
-    }, [])
+    }, [axios])
 
     return (
 			<div className='shoes-comp'>

@@ -13,6 +13,9 @@
     height: 300px;
     border-radius: 3px;
 }
+.shoe-title{
+    font-size: 30px;
+}
 /* .card-border{
     width: 325px;
     height: minmax(400px,inherit);

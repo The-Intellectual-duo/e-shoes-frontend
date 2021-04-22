@@ -40,7 +40,7 @@ function About() {
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Carousel/>
+				{/* <Carousel/> */}
 			</div>
 		);
 }
