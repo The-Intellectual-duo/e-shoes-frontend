@@ -4,6 +4,7 @@ import HomeShoe from '../styling/HomePageShoe.png'
 import red12s from '../styling/red shoe home.png'
 import handShoe from '../styling/handshoe.png'
 import airmax from '../styling/neonAirMax.png'
+import Carousel from './Carousel';
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
 						Click on the "Shoes" tab to get started on your shoe journey!
 					</div>
 				</div>
+				<Carousel/>
 			</div>
 		);
 }
