@@ -15,27 +15,27 @@ import { useArrowDarkButtonStyles } from '@mui-treasury/styles/button/arrowDark'
 const data = [
 	{
 		id: 1,
-		title: 'Huarache',
-		subtitle: 'Gripp',
+		title: 'Nike Mag',
+		subtitle: 'Back To The Future',
 		image:
 			// eslint-disable-next-line max-len
-			'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRVVsirHnYaZS1U3VUeZ-IJURoF18ExT9tr7w&usqp=CAU',
+			'http://media.oregonlive.com/oregonian/photo/2016/10/04/-11d52533b7d765d7.jpg',
 	},
 	{
 		id: 2,
-		title: 'Air Max',
-		subtitle: '270 P',
+		title: 'Air Jordan 1',
+		subtitle: 'Pine Green',
 		image:
 			// eslint-disable-next-line max-len
-			'https://images.solecollector.com/complex/image/upload/c_fill,f_auto,fl_lossy,q_auto,w_1100/mecy790pw3u9bgts6ffu.jpg',
+			'https://images.solecollector.com/complex/images/c_crop,h_1073,w_1907,x_50,y_554/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/iglvguevn9snaed4nt5v/air-jordan-1-retro-high-og-pine-green-555088-030-pair',
 	},
 	{
 		id: 3,
-		title: 'Air Max',
-		subtitle: 'Deluxe',
+		title: 'Air Max 97',
+		subtitle: 'City Special',
 		image:
 			// eslint-disable-next-line max-len
-			'https://firebasestorage.googleapis.com/v0/b/mui-treasury.appspot.com/o/public%2Fshoes%2Fair-max-deluxe.png?alt=media',
+			'https://sneakernews.com/wp-content/uploads/2021/02/nike-air-max-97-city-special-la-DH0144-800-12.jpg?w=1140',
 	},
 ];
 
@@ -43,7 +43,9 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
 	root: {
 		// a must if you want to set arrows, indicator as absolute
 		position: 'relative',
-		width: '80%',
+		marginTop: '23%',
+		left: '50%',
+		width: '35%',
 	},
 	slide: {
 		perspective: 1000, // create perspective
@@ -73,6 +75,8 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
 		height: '40%',
 		objectFit: 'cover',
 		marginLeft: '12%',
+		right: '29%',
+		marginTop: '17%',
 		[breakpoints.up('sm')]: {
 			marginLeft: '48%',
 		},
@@ -85,18 +89,18 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
 		[breakpoints.up('sm')]: {
 			display: 'inline-flex',
 		},
-		backgroundColor: 'white',
+		backgroundColor: 'gray',
 	},
 	arrowLeft: {
 		left: 0,
 		[breakpoints.up('lg')]: {
-			left: -6,
+			left: -30,
 		},
 	},
 	arrowRight: {
 		right: 0,
 		[breakpoints.up('lg')]: {
-			right: -64,
+			right: 65,
 		},
 	},
 	text: {
