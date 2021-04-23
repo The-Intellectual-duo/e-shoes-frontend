@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styling/Item.css'
 
-function Item({shoe}) {
+function Item({shoe,cart,setCart}) {
 
 
     return (
@@ -19,6 +19,7 @@ function Item({shoe}) {
 					<h1>{shoe.name}</h1>
 					<h3 className='shoe-price'>$ {shoe.price}</h3>
                     <p>{shoe.description}</p>
+                    <button onClick={() => setCart([...cart,shoe])}>Add To Cart</button>
 				</div>
                 </div>
 			</div>

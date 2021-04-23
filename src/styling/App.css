@@ -1,4 +1,7 @@
-.main{
-    /* background-image: linear-gradient(red,black); */
-    
+.cart-icon{
+    font-size: 45px;
+    color: white;
+    position: relative;
+    left: 96%;
+    top:15px;
 }

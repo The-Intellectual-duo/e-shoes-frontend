@@ -1,9 +1,6 @@
 import React from 'react';
 import '../styling/About.css'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faGhost } from '@fortawesome/free-solid-svg-icons'
 import Card from 'react-bootstrap/Card'
-import Carousel from './Carousel'
 
 function About() {
     return (
