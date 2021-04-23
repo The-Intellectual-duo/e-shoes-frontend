@@ -1,0 +1,11 @@
+.sum-prices{
+    position: relative;
+    left: 75%;
+    width: 350px;
+    height: 625px;
+    border: solid white 2px
+}
+.item-checkout-image{
+    width:50%;
+    height: auto;
+}

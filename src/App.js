@@ -5,7 +5,7 @@ import Checkout from './components/Checkout'
 import {Route, Link} from 'react-router-dom'
 import About from './components/About'
 import Shoes from './components/Shoes'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 
@@ -13,6 +13,9 @@ import {faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 function App() {
   const [cart, setCart] = useState([])
   const [showNav, setShowNav] = useState(true)
+  useEffect(() => {
+
+  }, [showNav])
 
 
   return (
