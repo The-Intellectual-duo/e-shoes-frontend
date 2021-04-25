@@ -25,6 +25,7 @@
     left:25.8%;
     color: whitesmoke;
     width: 950px;
+    height: 1000px;
 }
 .nav-link{
     padding:15px;
@@ -69,9 +70,9 @@
 }
 
 .red-neon-jays-top{
-    position: absolute;
+    position: relative;
     left: 1100px;
-    top: -50px;
+    top: -1100px;
     width: 320px;
     /* transform: rotate(-20deg); */
     -webkit-animation:spin 4s linear infinite;
@@ -80,9 +81,9 @@
 }
 
 .white-neon-jays{
-    position: absolute;
-    left: 1100px;
-    top: 340px;
+    position: relative;
+    left: 800px;
+    top: -690px;
     width: 320px;
     /* transform: rotate(-140deg); */
     -webkit-animation:spin 4s linear infinite;
@@ -91,9 +92,9 @@
 }
 
 .red-neon-jays-bottom{
-    position: absolute;
+    position: relative;
     left: 1100px;
-    top: 690px;
+    top: -500px;
     width: 320px;
     /* transform: rotate(-230deg); */
     -webkit-animation:spin 4s linear infinite;
@@ -102,9 +103,9 @@
 }
 
 .red-neon-jays-2-top{
-    position: absolute;
-    left: -420px;
-    top: -50px;
+    position: relative;
+    left: -740px;
+    top: -1300px;
     width: 320px;
     /* transform: rotate(20deg) scaleX(-1); */
     -webkit-animation:spin 4s linear infinite;
@@ -113,9 +114,9 @@
 }
 
 .white-neon-jays-2{
-    position: absolute;
+    position: relative;
     left: -440px;
-    top: 340px;
+    top: -1090px;
     width: 320px;
     /* transform: rotate(140deg) scaleX(-1); */
     -webkit-animation:spin 4s linear infinite;
@@ -124,14 +125,19 @@
 }
 
 .red-neon-jays-2-bottom{
-    position: absolute;
-    left: -420px;
-    top: 710px;
+    position: relative;
+    left: -750px;
+    top: -710px;
     width: 320px;
     /* transform: rotate(230deg) scaleX(-1); */
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
+}
+
+.image-div{
+  position: relative;
+  height: 500px;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }

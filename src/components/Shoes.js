@@ -50,25 +50,19 @@ function Shoes({cart,setCart}) {
 
 					<Tab className='puma-tab tab' eventKey='puma' title='Puma'>
 						{puma.map((shoe) => (
-							<Item shoe={shoe} cart={cart} setCart={setCart}/>
-						))}
+							<Item shoe={shoe} />
+							))}
 					</Tab>
 				</Tabs>
-
-				<img className='red-neon-jays-top' src={redNeon} alt='Neon Jordans' />
-				<img className='white-neon-jays' src={whiteNeon} alt='Neon Jordans' />
-				<img
-					className='red-neon-jays-bottom'
-					src={redNeon}
-					alt='Neon Jordans'
-				/>
-				<img className='red-neon-jays-2-top' src={redNeon} alt='Neon Jordans' />
-				<img className='white-neon-jays-2' src={whiteNeon} alt='Neon Jordans' />
-				<img
-					className='red-neon-jays-2-bottom'
-					src={redNeon}
-					alt='Neon Jordans'
-				/>
+				<div className='image-div'>
+					<img className='red-neon-jays-top' src={redNeon} alt='Neon Jordans' /> 
+					<img className='white-neon-jays' src={whiteNeon} alt='Neon Jordans' />
+					<img className='red-neon-jays-bottom' src={redNeon} alt='Neon Jordans' />
+					<img className='red-neon-jays-2-top' src={redNeon} alt='Neon Jordans' />
+					<img className='white-neon-jays-2' src={whiteNeon} alt='Neon Jordans' />
+					<img className='red-neon-jays-2-bottom' src={redNeon} alt='Neon Jordans' />
+				</div>
+				
 			</div>
 		);
  
