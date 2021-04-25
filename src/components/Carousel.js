@@ -15,11 +15,11 @@ import { useArrowDarkButtonStyles } from '@mui-treasury/styles/button/arrowDark'
 const data = [
 	{
 		id: 1,
-		title: 'Nike Mag',
-		subtitle: 'Back To The Future',
+		title: 'Air Max 97',
+		subtitle: 'City Special',
 		image:
 			// eslint-disable-next-line max-len
-			'http://media.oregonlive.com/oregonian/photo/2016/10/04/-11d52533b7d765d7.jpg',
+			'https://sneakernews.com/wp-content/uploads/2021/02/nike-air-max-97-city-special-la-DH0144-800-12.jpg?w=1140',
 	},
 	{
 		id: 2,
@@ -31,11 +31,11 @@ const data = [
 	},
 	{
 		id: 3,
-		title: 'Air Max 97',
-		subtitle: 'City Special',
+		title: 'Nike Mag',
+		subtitle: 'Back To The Future',
 		image:
 			// eslint-disable-next-line max-len
-			'https://sneakernews.com/wp-content/uploads/2021/02/nike-air-max-97-city-special-la-DH0144-800-12.jpg?w=1140',
+			'http://media.oregonlive.com/oregonian/photo/2016/10/04/-11d52533b7d765d7.jpg',
 	},
 ];
 
@@ -43,7 +43,7 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
 	root: {
 		// a must if you want to set arrows, indicator as absolute
 		position: 'relative',
-		marginTop: '23%',
+		marginTop: '-25%',
 		left: '50%',
 		width: '35%',
 	},

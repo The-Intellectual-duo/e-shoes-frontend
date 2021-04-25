@@ -14,7 +14,11 @@ body {
 }
 #root{
   background-image: linear-gradient(#b8130a,black);
-  height: 1200px;
+  height: 1300px;
+}
+
+html{
+  background-color: black;
 }
 
 code {
