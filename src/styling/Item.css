@@ -16,8 +16,14 @@
 .shoe-title{
     font-size: 30px;
 }
-/* .card-border{
-    width: 325px;
-    height: minmax(400px,inherit);
-    background-image: linear-gradient(to bottom right, white,red,black);
-} */
+.flip-card-back button{
+    background-color: #b8130a;
+    border: solid black 2px;
+    border-radius: 8px;
+    font-family: Broadway;
+    font-size: 25px;
+    text-shadow: 1px 1px white;
+}
+.flip-card-back button:active{
+    color: white;
+}
