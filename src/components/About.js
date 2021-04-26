@@ -17,27 +17,24 @@ function About() {
 					/>
 					<Card.Body className='card-body'>
 						<Card.Title className='card-title'>Josmar Morales</Card.Title>
-						<Card.Text>
-							Some quick example text to build on the card title and make up the
-							bulk of the card's content.
+						<Card.Text className='card-text'>
+							Junior Full-Stack Engineer, located in Norcross, GA
 						</Card.Text>
 					</Card.Body>
 				</Card>
 				<Card style={{ width: '18rem' }} className='jalen-card'>
 					<Card.Img
 						variant='top'
-						src='https://media-exp1.licdn.com/dms/image/C5635AQG9PR9QIrGstA/profile-framedphoto-shrink_400_400/0/1615484186792?e=1618959600&v=beta&t=FPSaPt3-1_pbW6CPTKSTpexzqUtmcrQmgB_SJTkz20E'
+						src='https://media-exp1.licdn.com/dms/image/C5635AQG9PR9QIrGstA/profile-framedphoto-shrink_400_400/0/1615484186792?e=1619528400&v=beta&t=7OmyTs1_Gd4caIqPQDX3-HgHxd9LAJ074d0yPl-o1J8'
 						className='card-img'
 					/>
 					<Card.Body className='card-body'>
 						<Card.Title className='card-title'>Jalen Foreman</Card.Title>
-						<Card.Text>
-							Some quick example text to build on the card title and make up the
-							bulk of the card's content.
+						<Card.Text className='card-text'>
+							Junior Full-Stack Engineer, located in Lithonia, GA
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				
 			</div>
 		);
 }
