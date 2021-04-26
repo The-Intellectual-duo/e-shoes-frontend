@@ -1,8 +1,12 @@
 import React from 'react';
 import '../styling/About.css'
 import Card from 'react-bootstrap/Card'
+import Jalen from '../styling/Jalen Pic.png'
 
 function About() {
+
+	
+	
     return (
 			<div className='about'>
 				<p className='about-desc'>
@@ -26,7 +30,7 @@ function About() {
 				<Card style={{ width: '18rem' }} className='jalen-card'>
 					<Card.Img
 						variant='top'
-						src='https://media-exp1.licdn.com/dms/image/C5635AQG9PR9QIrGstA/profile-framedphoto-shrink_400_400/0/1615484186792?e=1618959600&v=beta&t=FPSaPt3-1_pbW6CPTKSTpexzqUtmcrQmgB_SJTkz20E'
+						src={Jalen}
 						className='card-img'
 					/>
 					<Card.Body className='card-body'>

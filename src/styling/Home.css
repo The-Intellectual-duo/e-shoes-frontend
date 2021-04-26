@@ -27,7 +27,7 @@
 
 .airmax {
     position: relative;
-    left: -400px;
+    left: -500px;
     bottom: 850px;
     width: 320px;
     transform: rotate(20deg);
@@ -46,7 +46,7 @@
     grid-gap: 15px;
     position: absolute;
     left: 1020px;
-    top: 205px;
+    top: 290px;
     
 }
 

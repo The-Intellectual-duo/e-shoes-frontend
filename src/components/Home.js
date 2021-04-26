@@ -7,6 +7,7 @@ import airmax from '../styling/neonAirMax.png'
 import Carousel from './Carousel';
 
 export default function Home() {
+
     return (
 			<div>
 				<img className='big-shoe' src={HomeShoe} alt='HomeShoe' />
