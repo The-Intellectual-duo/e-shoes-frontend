@@ -1,3 +1,9 @@
+@font-face{
+    font-family:'Broadway';
+    src:url(./styling/BroadwayRegular-7Bpow.ttf) format('truetype')
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +12,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#root{
+  background-image: linear-gradient(#b8130a,black);
+  height: 1300px;
+}
+
+html{
+  background-color: black;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
 }
