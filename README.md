@@ -25,8 +25,8 @@ This is a mock E-commerce shoe website built by Josmar Morales and Jalen Foreman
 
 Installs the app dependencies
 
-### `npm start
-`
+### `npm start`
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
